@@ -12,11 +12,12 @@ public class Calculator_java
 		int c= a+b;
 		System.out.println("Addition is :" +c);
 	}
-	
-
 	public static void main(String[] args) 
 	{
 		System.out.println("Main Process");
+		 Calculator_java cj= new Calculator_java();
+		 cj.add();
+		
 	}
 
 }
