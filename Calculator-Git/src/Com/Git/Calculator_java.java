@@ -9,6 +9,7 @@ public class Calculator_java
 		int b=20;
 		int c= a+b;
 		System.out.println("Addition is :" +c);
+		System.out.println("-----------------");
 	}
 	public void sub()
 	{
@@ -17,6 +18,7 @@ public class Calculator_java
 		int y=10;
 		int z= x-y;
 		System.out.println("Subtraction is :" +z);
+		System.out.println("-----------------");
 		
 	}
 	public void multi()
@@ -26,6 +28,7 @@ public class Calculator_java
 		int b=10;
 		int d=a*b;
 		System.out.println("Multiplication is:"+d);
+		System.out.println("-----------------");
 	}
 	public void div()
 	{
@@ -34,6 +37,7 @@ public class Calculator_java
 		int q =5;
 		int r=p/q;
 		System.out.println("divison is"+r);
+		System.out.println("-----------------");
 	}
 	public static void main(String[] args) 
 	{
