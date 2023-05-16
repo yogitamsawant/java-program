@@ -19,12 +19,22 @@ public class Calculator_java
 		System.out.println("Subtraction is :" +z);
 		
 	}
+	public void multi()
+	{
+		System.out.println("Multiplication")
+	         int a=10;
+		int b=10;
+		int d=a*b;
+		System.out.println("Multiplication is:"+d);
+	}
 	public static void main(String[] args) 
 	{
 		System.out.println("Main Process");
 		 Calculator_java cj= new Calculator_java();
 		 cj.add();
 		 cj.sub();
+		 cj.multi();
+		
 	}
 
 }
