@@ -27,6 +27,14 @@ public class Calculator_java
 		int d=a*b;
 		System.out.println("Multiplication is:"+d);
 	}
+	public void div()
+	{
+		System.out.println("Division");
+		int p=10;
+		int q =5;
+		int r=p/q;
+		System.out.println("divison is"+r);
+	}
 	public static void main(String[] args) 
 	{
 		System.out.println("Main Process");
@@ -34,7 +42,7 @@ public class Calculator_java
 		 cj.add();
 		 cj.sub();
 		 cj.multi();
-		
+		 cj.div();
 	}
 
 }
