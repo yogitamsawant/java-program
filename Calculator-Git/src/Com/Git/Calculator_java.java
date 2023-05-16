@@ -21,7 +21,7 @@ public class Calculator_java
 	}
 	public void multi()
 	{
-		System.out.println("Multiplication")
+		System.out.println("Multiplication");
 	         int a=10;
 		int b=10;
 		int d=a*b;
